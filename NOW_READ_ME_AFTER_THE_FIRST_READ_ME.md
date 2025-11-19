@@ -16,7 +16,7 @@ Generative AI makes use of models that have been trained on pre-existing music (
 
 📚 Tools to explore:
 
-* [Magenta](https://github.com/magenta/magenta) — a well-known TensorFlow-based music generation
+* [Magenta](https://github.com/magenta/magenta) — a well-known TensorFlow-based music generator
 * [Musicautobot](https://github.com/bearpelican/musicautobot) — another AI-based music generator
 
 ---
@@ -85,7 +85,7 @@ You can automate this pipeline with Python scripts that connect each stage.
 
 ---
 
-## 🚀 5. Challenge Ideas
+## 🚀 4. Challenge Ideas
 
 | Challenge               | Description                                                    |
 | ----------------------- | -------------------------------------------------------------- |
