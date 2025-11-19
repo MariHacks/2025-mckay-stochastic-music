@@ -22,8 +22,8 @@ You’ll explore the intersection of:
 
 You can choose either approach:
 
-* **MIDI-based:** Easier to start with, can be played back with many instruments.
-* **Audio-based:** More advanced; involves waveform or sample synthesis.
+* **MIDI-based:** Easier to start with. Individual notes are created by simply specifying their pitch, "velocity" (effectively loudness), "channel" (voice), start time and duration. MIDI can be played by any synthesizer. 
+* **Audio-based:** More advanced. Involves generating wave forms via individual digital samples. However, there are useful tools that simplify this greatly.
 
 ---
 
@@ -45,27 +45,24 @@ You can choose either approach:
 
 ### 3. Start Simple
 
-Here’s a suggested roadmap:
+Try doing simple tasks first:
 
-1. **Random Notes:** Generate a sequence of random notes from a scale.
-2. **Random Rhythm:** Add probabilistic durations and rests.
-3. **Structure:** Define sections (intro, verse, chorus, etc.) with different rules.
-4. **Harmony:** Add chord progressions or harmonic probability.
-5. **Instrument Layers:** Add melody, bassline, percussion, etc.
-6. **Export:** Save to `.mid` or `.wav`.
+1. **Generat a Sequence of Simple Notes:** Generate a sequence of random pitches. Start by having them belong to only a single musical scale / mode, but eventually make it possible to include notes from different scales in a musically pleasant way
+2. **Add Rhythm:** Give each of these notes a different duration. Start off with purely random durations, and then make adjustments so that the rhythm sounds more musical (e.g., only allow eighth notes, quarter notes, half notes, etc.).
+3. **Add Harmony:** Allow multiple randomly generated notes to start simultaneously. Limit the possible pitches to ones that will sound better together.
+4. **Instrument Layers:** Add different lines of music (e.g., melody, bassline, percussion (MIDI channel 10), etc.)
+5. **Structure:** Try breaki the music into sections (e.g., intro, verse, chorus, etc.).
+6. **Export:** Save to `.mid` or `.wav` files.
 
 ---
 
-### 4. Example Idea
+### 4. Ideas for Randomly Generating Notes
 
-> Generate a 2-minute piano piece where each note’s pitch and duration are chosen based on weighted probabilities (e.g., prefer consonant intervals, favor longer durations in slower sections).
-
-Or try:
-
+* Simple probability distributions.
 * Markov chains for note transitions.
 * Perlin noise for dynamic variation.
-* Cellular automata to control rhythm.
 * Genetic algorithms to evolve melodies.
+* Existing generative models.
 
 ---
 
