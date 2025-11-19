@@ -34,7 +34,7 @@ You can choose either approach:
 * **[`mido`](https://mido.readthedocs.io/en/latest/)** — Python library for dealing with MIDI messages and files.
 * **[`Mingus`](https://bspaans.github.io/python-mingus/)** — another Python library for dealing with MIDI that also includes more concepts from music theory.
 * **[`scamp`](https://scamp.marcevanstein.com/)** — more Python MIDI processing, but with a greater focus on composing music.
-* **[PrettyMIDI](https://github.com/craffel/pretty-midi) — more MIDI processing.
+* **[`PrettyMIDI`](https://github.com/craffel/pretty-midi) — more MIDI processing.
 * **[`music21`](https://web.mit.edu/music21/)** — a full-featured Python library for analyzing, processing and generating music.
 
 #### 🎧 For Audio Generation:
